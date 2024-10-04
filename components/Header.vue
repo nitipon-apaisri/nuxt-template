@@ -6,8 +6,18 @@ const changeColor = () =>
 </script>
 
 <template>
-  <div>
+  <header>
     <div>
+      <div className="logo"></div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="justify-self-end">
       <button
         aria-label="Color Mode"
         class="inline-block text-sm px-2 py-2 leading-none rounded-full text-white border-white hover:border-transparent bg-black dark:bg-white"
@@ -23,5 +33,5 @@ const changeColor = () =>
         </ColorScheme>
       </button>
     </div>
-  </div>
+  </header>
 </template>
