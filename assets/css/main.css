@@ -6,6 +6,10 @@ header {
     align-items: center;
 }
 
+p {
+    @apply dark:text-white
+}
+
 nav {
     @apply flex items-center justify-start space-x-4;
 }
